@@ -1,0 +1,23 @@
+{
+    "name": "aunt-assist-messaging",
+    "version": "0.1.0",
+    "description": "Assistive messaging app for individuals with limited mobility",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "assistive-technology",
+        "accessibility",
+        "messaging"
+    ],
+    "author": "Wesley Thompson",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "firebase-admin": "^9.12.0",
+        "nodemailer": "^6.7.0"
+    }
+}
